@@ -25,8 +25,7 @@
               {
 
               }
-            })
-            alert('');
+            });
         });
         function domieName()
         {

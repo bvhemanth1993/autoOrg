@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <title>Bootstrap Example</title>
+      <title>Auto Creation</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -20,9 +20,9 @@
           <input type="email" id="Email" name="Email" data-name="Email" placeholder="Enter your company email" maxlength="256" required="" class="form-field w-input">
           <label for="Designation" class="form-sub-headers">Designation</label>
           <input type="text" id="Designation" name="Designation" data-name="Designation" placeholder="Enter your designation" maxlength="256" class="form-field w-input">
-          <label for="Organization" class="form-sub-headers">Organization</label>
+          <label for="Organization" class="form-sub-headers">Organization *</label>
           <input type="text" id="Organization" name="Organization" data-name="Organization" placeholder="Enter your company name" maxlength="256" class="form-field w-input" onkeyup="domieName()">
-          <label for="Organization" class="form-sub-headers">Domine Name</label>
+          <label for="Organization" class="form-sub-headers">Domine Name *</label>
           <input type="text" id="Domine" name="Domine" data-name="Domine" placeholder="Enter your Domine name" maxlength="10" class="form-field w-input" required="" onkeyup="nospaces(this)">
           <div class="div-submit">
           <label for="Organization" class="form-sub-headers">Address</label>
@@ -32,15 +32,8 @@
           <input type="submit" value="SUBMIT" data-wait="Please wait..." class="button-2 pricing w-button">
           </div>
         </form>
-          <div class="w-form-done">
-            <div>Thank you! Your request has been received!</div>
-          </div>
-          <div class="w-form-fail">
-            <div>Oops! Something went wrong while submitting the form</div>
-          </div>
       </div>
-      <script type="text/javascript" src="js/autoorg.js">
-
-      </script>
+      <script type="text/javascript" src="js/autoorg.js"></script>
   </body>
 </html>
+
